@@ -99,7 +99,7 @@ body {
 }
 
 #audioPoster {
-  height: 160px;
+  height: 110px;
   width: 100%;
   padding: 10px;
 }
@@ -107,6 +107,7 @@ body {
 #audioTitle {
   color: #fff;
   margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 #pre,
@@ -123,7 +124,7 @@ body {
   border-radius: 50px;
   background-color: grey;
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #fall {
@@ -147,42 +148,22 @@ body {
   transform: scale(2);
 }
 
-@media screen and (max-width:1275px) {
-  .eminemLogo {
-    top: 55%;
-    right: 25%;
-    position: absolute !important;
-  }
-}
+
 
 @media screen and (max-width:976px) {
   .eminemLogo {
     top: 55%;
-    right: 20%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute !important;
   }
-}
 
-@media screen and (max-width:815px) {
-  .eminemLogo {
-    top: 55%;
-    right: 15%;
-    position: absolute !important;
-  }
-}
-
-@media screen and (max-width:710px) {
-  .eminemLogo {
-    top: 55%;
-    right: 0%;
-    position: absolute !important;
-  }
-}
-
-@media screen and (max-width:400px) {
-  .eminemLogo {
-    top: 55%;
-    left: 5px;
-    position: absolute !important;
+  .eminemCopyRight {
+    position: absolute;
+    z-index: 3;
+    bottom: -25px;
+    text-align: center;
   }
 }
