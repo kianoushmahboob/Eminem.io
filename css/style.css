@@ -169,6 +169,7 @@ body {
   }
 
   .eminemImg img {
+    top: unset;
 position: absolute !important;
     width: 65% !important;
     bottom: 0px;
