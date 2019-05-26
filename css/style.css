@@ -168,7 +168,7 @@ body {
   }
 
   .eminemImg img {
-    position: relative;
+    position: absolute !important;
     width: 10px !important;
   }
 }
