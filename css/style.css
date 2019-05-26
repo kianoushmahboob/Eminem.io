@@ -152,7 +152,7 @@ body {
 
 @media screen and (max-width:976px) {
   .eminemLogo {
-    
+     top: unset;
     right: 0;
     left: 0;
     margin-left: auto;
@@ -169,7 +169,7 @@ body {
   }
 
   .eminemImg img {
-    top: unset;
+   
 position: absolute !important;
     width: 65% !important;
     bottom: 0px;
