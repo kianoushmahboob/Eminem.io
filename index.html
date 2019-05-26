@@ -1,0 +1,164 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row p0">
+        <div class="col-12 p0">
+          <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Disabled</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fab fa-telegram-plane"></i></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class="fas fa-at"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="owl-carousel owl-theme eminemSlider">
+
+            <div class="item">
+              <img
+                src="img/sl5.jpg"
+                class="SliderImg p0" alt="">
+            </div>
+
+
+            <div class="item">
+              <img src="img/sl8.jpg" class="SliderImg p0" alt="">
+            </div>
+            <div class="item">
+              <img src="img/sl9.jpg" class="SliderImg p0" alt="">
+            </div>
+            <div class="item">
+              <img src="img/sl10.jpg" class="SliderImg p0" alt="">
+            </div>
+            <div class="item">
+              <img src="img/sl16.jpg" class="SliderImg p0" alt="">
+            </div>
+
+
+          </div>
+          <div class="row">
+            <div class="col-12 eminemImg">
+              <p class="center"> <img src="img/e2.png">
+                <img src="img/logo.png" class="eminemLogo" alt="">
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row rtl">
+              <div class="col-4 eminemCopyRight">
+                <a href="#"> Copyright © 2019 | Kianoush mahboob </a>
+              </div>
+              <div class="col-4 eminemAudioPlayer mr-auto">
+                <div class="row">
+                  <div class="col-5">
+                    <img src="img/ll.jpg" id="audioPoster"
+                      alt="">
+                  </div>
+                  <div class="col-7 p0">
+                    <div class="col-12 text-center">
+                      <p id="audioTitle">Eminem kamikaze </p>
+                    </div>
+                    <div class="col-12 p0 text-center">
+                      <button id="pre"> <i class="fas fa-step-backward"></i></button>
+                      <button id="play-puse" onclick="playOrPause()"> <i
+                          class="fas fa-pause"></i></button>
+                      <button id="next" onclick="next()"> <i class="fas
+                          fa-step-forward"></i></button>
+                    </div>
+                    <div class="col-12 p0 text-centerqq">
+                      <div id="base"></div>
+                      <div id="fall"></div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 eminemSliderBgColor">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+  $('.eminemSlider').owlCarousel({
+    loop: true,
+    margin: 20,
+    animateOut: 'zoomOut fast',
+    animateIn: 'bounceIn delay-1s slow',
+    autoplay : true ,
+    nav : false ,
+    dots : false ,
+    center : true ,
+    autoplayTimeout:4000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 1
+      }
+    }
+  })
+                    var x = screen.height - 137 + "px";
+                      $(".SliderImg").css("height", x);
+                      $(".eminemSliderBgColor").css("height", x);
+                      $(".eminemSlider .owl-stage-outer").css("height", x);
+  </script>
+</html>

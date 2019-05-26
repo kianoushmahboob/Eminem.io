@@ -1,0 +1,18 @@
+$primary : #040c09;
+$second :#e91d1e;
+
+.nav-item a {
+  color: $second !important;
+}
+
+#play-puse,
+#pre,
+#next {
+  background-color: transparent;
+  border: 0;
+}
+
+#pre {
+  background-color: transparent;
+  border: 0;
+}

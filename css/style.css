@@ -1,0 +1,188 @@
+body {
+  background-color: #040c09;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.SliderImg {
+  width: 100% !important;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.eminemSliderBgColor {
+  width: 100%;
+  background-color: #040c09;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar {
+  direction: rtl;
+  text-align: right;
+  background-color: transparent;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.nav-item a {
+  color: #e91d1e !important;
+}
+
+.nav-item a i {
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.nav-item a i:hover {
+  color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 20px;
+}
+
+.eminemCopyRight {
+  position: absolute;
+  z-index: 3;
+  bottom: 5px;
+  text-align: right;
+}
+
+.eminemCopyRight a {
+  color: #e91d1e;
+}
+
+.eminemLogo {
+
+  top: 55%;
+  right: -4%;
+}
+
+.eminemImg img {
+  position: relative;
+  width: 420px;
+
+}
+
+.eminemImg {
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.eminemAudioPlayer {
+  box-shadow: 0px 0px 10px #000;
+  background-color: #4242426e;
+  text-align: left;
+  direction: ltr;
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  bottom: 15px;
+  text-align: left;
+  direction: ltr;
+}
+
+#audioPoster {
+  height: 160px;
+  width: 100%;
+  padding: 10px;
+}
+
+#audioTitle {
+  color: #fff;
+  margin-top: 15px;
+}
+
+#pre,
+#next,
+#play-puse {
+  font-size: 28px;
+  color: #e91d1e;
+  padding: 5px 10px;
+}
+
+#base {
+  width: 95%;
+  height: 5px;
+  border-radius: 50px;
+  background-color: grey;
+  position: relative;
+  margin-top: 30px;
+}
+
+#fall {
+  position: absolute;
+  width: 1%;
+  height: 5px;
+  top: 0;
+  background-color: #e91d1e;
+  z-index: 5;
+}
+
+#cer {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #e91d1e;
+  position: absolute;
+  top: -1;
+  left: 0;
+  z-index: 6;
+  transform: scale(2);
+}
+
+@media screen and (max-width:1275px) {
+  .eminemLogo {
+    top: 55%;
+    right: 25%;
+    position: absolute !important;
+  }
+}
+
+@media screen and (max-width:976px) {
+  .eminemLogo {
+    top: 55%;
+    right: 20%;
+    position: absolute !important;
+  }
+}
+
+@media screen and (max-width:815px) {
+  .eminemLogo {
+    top: 55%;
+    right: 15%;
+    position: absolute !important;
+  }
+}
+
+@media screen and (max-width:710px) {
+  .eminemLogo {
+    top: 55%;
+    right: 0%;
+    position: absolute !important;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .eminemLogo {
+    top: 55%;
+    left: 5px;
+    position: absolute !important;
+  }
+}
