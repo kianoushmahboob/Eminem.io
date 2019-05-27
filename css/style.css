@@ -63,16 +63,16 @@ body {
 }
 
 .eminemLogo {
-
+      border: 18px solid #e91d1e;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    box-shadow: inset 1px 1px 5px #000;
   top: 55%;
   right: -4%;
 }
 
 .eminemImg img {
-      border: 18px solid #e91d1e;
-    border-top-right-radius: 75px;
-    border-bottom-left-radius: 75px;
-    box-shadow: inset 1px 1px 5px #000;
+
   position: relative;
   width: 420px;
 
